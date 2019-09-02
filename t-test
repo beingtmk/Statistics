@@ -1,0 +1,32 @@
+A t-test is a statistic that checks if two means are reliably different from each other.
+
+In other words, t-test tells us how likely is the difference between the means reliable (wheather it was just chance or had some cause)
+
+t = variance betn groups / variance within groups
+
+Each t-value has corresponding p-value
+
+p-value: probability that the pattern produced by data can be produced randomly
+
+Bigger samples are helpful but with diminishing returns. (20-30+ datapoints is enough)
+
+df (degree of freedom): (sample size - 1)
+
+Limitations:
+1. can be generalized to same types of samples (adult data point to children)
+2. needs to be normal
+3. need around same number of samples in each group
+4. datapoints should be independent
+5. should not be classification like (1st, 2nd adn 3rd) not same difference.
+
+Overcoming Limitations:
+1. Monte Carlo Simulation to see if its safe to use t-test.
+2. Non-parametric tests, Mann-Whitney U for non-normal, ordered datasets, less powerful
+
+1. Independent Samples, between, unpaired
+2. Paired Samples, within-subjects, repeated-measures, dependent-samples (Beware of ordering effect) 
+3. One Sample
+
+Descriptive Statistics: These are stats, such as a mean, that describe your data, but can't be generalized beyond that.
+
+Inferential Statistics: These are stats, such as t-test, that allow us to make inferences about the population beyond our data.

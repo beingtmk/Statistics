@@ -1,0 +1,10 @@
+False discovery rate is a tool to weed out bad data that looks good.
+
+Given two samples 95% of the time they will overlap, 5% of the times they will not.(False Positives)
+
+FDR can control the number of the False Positives.
+
+You can decrease the number of false negatives by increasing sample size
+
+
+
